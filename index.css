@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: black;
+    margin: 0
+    
+}
+
+* { color:#fff; text-decoration: none;}
+
+.Aligner {
+    text-align: center;
+    color:#fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    vertical-align: center;
+}
+
+h2 {
+    margin-bottom: -5px;
+    font-size: 7rem;
+    font-family: 'Bebas Neue'
+}
+
+.Wrapper {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    font-size: 1rem;
+    font-family: 'Helvetica Neue';
+    flex-wrap: wrap;
+}
+
+section {
+    width: 100%;
+    padding: 0 4%;
+    display: table;
+    margin: 0;
+    max-width: none;
+    background-color: black;
+    height: 100vh;
+
+    &:nth-of-type(2n) {
+        background-color: darkgray;
+    }
+}
+
+.First {
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Second {
+    display: table-cell;
+    background-color: rgb(20, 20, 20);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    margin-bottom: 7%;
+    
+}
+
+  /* Mouse Styling */
+.mouse {
+    display: block;
+    width: 28px;
+    height: 48px;
+    border-radius: 11px 11px 15px 15px;
+    border: 1px solid #fff;
+    position: absolute;
+    left: 50%;
+    margin-left: -13px;
+    z-index: 9999;
+}
+
+.mouse span {
+    display: block;
+    margin: 6px auto;
+    width: 2px;
+    height: 5px;
+    border-radius: 4px;
+    background: #fff;
+    border: 1px solid transparent;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: scroll;
+    animation-name: scroll;
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+        }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        transform: translateY(20px);
+        }
+}
