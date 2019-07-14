@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="arrow.css">
         <link rel="stylesheet" href="nav.css">
+        <link rel="stylesheet" href="modal.css">
         <link rel="stylesheet"
             href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
@@ -125,6 +126,7 @@
                         </div>
                         <div class ="card-image">
                             <img src="brainz-background.jpg" alt="">
+                            <i id="myBtn" class="fas fa-play-circle"></i>
                         </div>
                         <div class ="card-description">
                             <div class="card-description-text">
@@ -155,6 +157,18 @@
                                 <i class="devicon-postgresql-plain"></i>
                             </div>
                         </div>
+                    </div>
+                    <div id="myModal" class="modal">
+                    
+                        <!-- Modal content -->
+                        <div class="modal-content scale-in-center">
+                            <span class="close">&times;</span>
+                            <video controls>
+                                <source src="brainz-mobile.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    
                     </div>
                     <div class="project-buttons">
                         <div class="project-button">

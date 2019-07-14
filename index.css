@@ -170,8 +170,29 @@ p {
 }
 
 
+.card-image{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
 .card-image img{
     width: 49rem;
+}
+
+.card-image i{
+    color: black;
+    opacity: .8;
+    z-index: 10020;
+    font-size: 10rem;
+    position: absolute;
+    margin-top: 8rem;
+}
+
+.card-image i:hover{
+    transition: all 0.5s ease;
+    font-size: 12rem;
+    color: #E12D1D;
 }
 
 .card-description {
