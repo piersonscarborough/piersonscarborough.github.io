@@ -3,19 +3,61 @@
 
     <head>
         <title>Pierson Scarborough</title>
+        <link rel="shortcut icon" type="image/png" href="favicon.png" />
         <link rel="stylesheet" href="index.css">
-        <script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" href="arrow.css">
+        <link rel="stylesheet" href="nav.css">
+        <link rel="stylesheet"
+            href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+            integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
 
     </head>
     <body>
-    <body>
-        <section class="First">
-            <div class="container">
-                <div class="mouse">
-                    <span></span>
-                </div>
+        <nav class="navbar">
+            <a href="#" class="logo">Pierson</a>
+            <div class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fas fa-bars"></i>
             </div>
-            <div class="Aligner">
+        </nav>
+        <div class="mobile-menu">
+            <ul class="slide-left main-menu" id="js-menu">
+                <li>
+                    <a href="#" class="nav-links">About Me
+                        <i class="right-first fas fa-chevron-right"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-links">Projects
+                        <i class="right-second fas fa-chevron-right"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-links">Resume
+                        <i class="right-third fas fa-chevron-right"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-links">Skills
+                        <i class="right-fourth fas fa-chevron-right"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-links">Contact
+                        <i class="right-fifth fas fa-chevron-right"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <section class="first">
+            <a class="arrow bounce-in-top" href="#about">
+                <!-- Link to your content ID -->
+                <div id="arrow-down">
+                    <i class="fa fa-chevron-down"></i>
+                </div>
+            </a>
+            <div class="type-container">
                 <p>
                     <a href="" class="typewrite" data-period="2000" data-type='[ "Hi.", "My Name Is Pierson.", "Im a Designer.", "Im a Developer.", "And, Im a Creator." ]'>
                         <span class="wrap"></span>
@@ -23,15 +65,108 @@
                 </p>
             </div>
         </section>
-        
-        <section class="Second">
-            <div class="Wrapper">
-            <h2>ABOUT ME</h2>
-                <p>
-                    As a freelancer I provide professional photography, graphic design, and digital marketing services. As far as photography I work a lot of commercial shoots/events and my graphic design ranges from logos to brochures and even some infographics. Finally, I offer social media services as well.    
-                </p>
+        <div class="content">
+            <div class="about-me" id="about">
+                <h2>ABOUT ME</h2>
+                <hr class="divider">
+                <div class="image-box">
+                    <div class="about-image">
+                        <img src="lumberjack.png" alt="">
+                    </div>
+                </div>
+                <div class="text-container">
+                <h4>Hi! I'm Pierson Scarborough</h4>
+                    <p>
+                        I'm a designer, a developer, and a creator. Before becoming a web developer, I was in advertising, focused primarily on
+                        content creation and design. If you had asked me two years ago if I thought I would be coding and building applications
+                        today, I would’ve thought you were crazy. Computer Science always on the surface appeared to be reserved for those who
+                        excelled in mathematics and/or science, not necessarily creatives. As I saw the market gradually shifting towards the
+                        web and more and more companies were looking for designers with the ability to code, I decided to dive into this
+                        challenging discipline headfirst and haven’t looked back.
+                    </p>
+                    <p>    
+                        The world of development is just another outlet for me to build and create. I believe there is great value in not only
+                        being able to understand design, but also being able to create and implement it through code. Just like designing a logo
+                        or developing pictures, I find the coding process to be therapeutic. The many intricate steps it takes to build
+                        something makes the end product that much more gratifying.
+                    </p> 
+                    <p>
+                        When I’m not writing code, you can find me shooting photography, creating art, thrifting, and just being active
+                        outdoors. I also offer freelance design and photography on the side. Contact me and let’s build something!
+                    </p>
+                </div>
+                <div class="about-icons">
+                    <div class="about-icon">
+                        <a href="https://github.com/piersonscarborough" target="blank" rel="noreferrer">
+                            <i class="fab fa-github-square"></i>
+                        </a>
+                    </div>
+                    <div class="about-icon">
+                        <a href="https://www.linkedin.com/in/pierson-scarborough/" target="blank" rel="noreferrer">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <div class="about-icon">
+                        <a href="mailto: piersonscarborough@gmail.com">
+                            <i class="fas fa-envelope-square"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
-        </section>
+        </div>
+        <div class="project-content">
+            <div class="projects" id="projects">
+                <h2>Projects</h2>
+                <hr class="divider">
+                <div class="project-container">
+                    <div class="card">
+                        <div class ="card-title">
+                            <h4>BRAINZ</h4>
+                        </div>
+                        <div class ="card-image">
+                            <img src="brainz-background.jpg" alt="">
+                        </div>
+                        <div class ="card-description">
+                            <div class="card-description-text">
+                                <p>
+                                    BRAINZ is a retro inspired zombie first-person-shooter that allows the user to train their reaction time, track
+                                    progress, and view top scores from other users to see who is the Top Undead Slayer.
+                                </p>
+                            </div>
+                        </div>
+                        <hr class="divider">
+                        <div class ="card-skills">
+                            <div class="card-icon">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <div class="card-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="card-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="card-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <div class="card-icon">
+                                <i class="devicon-express-original"></i>
+                            </div>
+                            <div class="card-icon">
+                                <i class="devicon-postgresql-plain"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-buttons">
+                        <div class="project-button">
+                            <a href="https://github.com/piersonscarborough/brainz" target="blank" rel="noreferrer">
+                                <h5>GitHub</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
     </body>
 
 </html>
