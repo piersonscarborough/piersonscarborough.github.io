@@ -46,10 +46,32 @@
     margin-left: 11.5rem;
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 
-    .type-container{
-        font-size: 3rem;
+    .right-first{
+        margin-left: 9.5rem;
+    }
+    .right-second{
+        margin-left: 10.5rem;
+    }
+    .right-third{
+        margin-left: 10.5rem;
+    }
+    .right-fourth{
+        margin-left: 12rem;
+    }
+    .right-fifth{
+        margin-left: 10.5rem;
     }
     
+    .arrow{
+    margin-bottom: 7px;
+    font-size: 3rem;
+}
+
+    .arrow:hover{
+        transition: all 0.5s ease;
+        font-size: 5rem;
+    }
+
 }

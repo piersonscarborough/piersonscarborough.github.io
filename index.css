@@ -110,8 +110,8 @@ p {
 }
 
 .about-icons{
-    border-style: solid;
-    border-color: black;
+    /* border-style: solid;
+    border-color: black; */
     display: flex;
     flex-wrap: wrap;
 }
@@ -130,6 +130,10 @@ p {
 .image-box{
     padding-left: 3rem;
     margin-bottom: 7rem;
+}
+
+.about-image img{
+    width: 60%;
 }
 
 .project-content{
@@ -337,10 +341,19 @@ p {
 } */
 
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 
-    .type-container{
-        font-size: 3rem;
+    .type-container p{
+        font-size: 2.5rem;
     }
-    
+    .content{
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 8rem;
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+    }
+    .text-container {
+    max-width: 50%;
+    }
 }
