@@ -1,7 +1,7 @@
 
 
 html {
-    font-size: 16px;
+    font-size: 12px;
     scroll-behavior: smooth;
     
 }
@@ -133,15 +133,15 @@ p {
 }
 
 .about-image img{
-    width: 60%;
+    width: 20rem;
 }
 
 .project-content{
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-top: 5rem;
-    margin-bottom: 10rem;
-    margin-top: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
     background-color: #EDEDED;
 }
 
@@ -181,7 +181,7 @@ p {
 }
 
 .card-image img{
-    width: 50rem;
+    width: 25rem;
     overflow: hidden;
 }
 
@@ -191,12 +191,12 @@ p {
     z-index: 10020;
     font-size: 10rem;
     position: absolute;
-    margin-top: 8rem;
+    margin-top: 4rem;
 }
 
 .card-image i:hover{
     transition: all 0.5s ease;
-    font-size: 12rem;
+    font-size: 1rem;
     color: #E12D1D;
 }
 
@@ -204,9 +204,9 @@ p {
     margin-top: 0;
 }
 .card-description p{
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
     padding-top: 1rem;
 }
 
@@ -233,13 +233,13 @@ p {
 }
 
 .card-icon {
-    padding: 1.5rem;
+    padding: .5rem;
     margin-bottom: 1rem;
 }
 
 .card-icon i{
     color: #545454;
-    font-size: 5rem;
+    font-size: .5rem;
 }
 
 .card-icon i:hover{
@@ -258,21 +258,21 @@ p {
     background-color: #E12D1D;
     border-radius: 20px;
     padding: 2rem;
-    width: 15rem;
+    width: 1rem;
     text-align: center;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
 }
 
 .project-button h5{
-    font-size: 2.5rem;
+    font-size: .5rem;
 }
 
 .skill-content{
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-top: 5rem;
-    margin-bottom: 20rem;
-    margin-top: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
 }
 
 .skill-container{
@@ -286,13 +286,13 @@ p {
 }
 
 .skill-icon {
-    padding: 2rem;
+    padding: 1rem;
     margin-bottom: 1rem;
 }
 
 .skill-icon i{
     color: #fff;
-    font-size: 15rem;
+    font-size: 1rem;
 }
 
 .skill-icon i:hover{
