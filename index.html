@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="arrow.css">
         <link rel="stylesheet" href="nav.css">
         <link rel="stylesheet" href="modal.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet"
             href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
@@ -25,32 +26,34 @@
         <div class="mobile-menu">
             <ul class="slide-left main-menu" id="js-menu">
                 <li>
-                    <a href="#" class="nav-links">About Me
+                    <a href="#about" class="nav-links">About Me
                         <i class="right-first fas fa-chevron-right"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="nav-links">Projects
+                    <a href="#projects" class="nav-links">Projects
                         <i class="right-second fas fa-chevron-right"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="nav-links">Resume
+                    <a href="resume.pdf" target="blank" rel="noreferrer"  class="nav-links" download>Resume
                         <i class="right-third fas fa-chevron-right"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="nav-links">Skills
+                    <a href="#skills" class="nav-links">Skills
                         <i class="right-fourth fas fa-chevron-right"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="nav-links">Contact
+                    <a href="#contact" class="nav-links">Contact
                         <i class="right-fifth fas fa-chevron-right"></i>
                     </a>
                 </li>
             </ul>
         </div>
+
+
         <section class="first">
             <a class="arrow bounce-in-top" href="#about">
                 <!-- Link to your content ID -->
@@ -66,10 +69,12 @@
                 </p>
             </div>
         </section>
+
+
         <div class="content">
             <div class="about-me" id="about">
                 <h2>ABOUT ME</h2>
-                <hr class="divider">
+                <hr class="divider" data-aos="fade-right">
                 <div class="image-box">
                     <div class="about-image">
                         <img src="lumberjack.png" alt="">
@@ -115,11 +120,18 @@
                 </div>
             </div>
         </div>
+
+
+
+<!-- project-content -->
         <div class="project-content">
             <div class="projects" id="projects">
                 <h2>Projects</h2>
-                <hr class="divider">
+                <hr class="divider " data-aos="fade-right">
+<!-- project-container -->
                 <div class="project-container">
+
+<!-- brainz card -->
                     <div class="card">
                         <div class ="card-title">
                             <h4>BRAINZ</h4>
@@ -158,6 +170,13 @@
                             </div>
                         </div>
                     </div>
+                <div class="project-buttons">
+                    <div class="project-button">
+                        <a href="https://github.com/piersonscarborough/brainz" target="blank" rel="noreferrer">
+                            <h5>GitHub</h5>
+                        </a>
+                    </div>
+                </div>
                     <div id="myModal" class="modal">
                     
                         <!-- Modal content -->
@@ -168,19 +187,138 @@
                                 Your browser does not support the video tag.
                             </video>
                         </div>
-                    
                     </div>
-                    <div class="project-buttons">
-                        <div class="project-button">
-                            <a href="https://github.com/piersonscarborough/brainz" target="blank" rel="noreferrer">
-                                <h5>GitHub</h5>
+<!-- brainz card -->
+
+
+<!-- showhunter card -->
+                    <div class="card">
+                        <div class ="card-title">
+                            <h4>showhunter</h4>
+                        </div>
+                        <div class ="card-image">
+                            <img src="showhunter-background.jpg" alt="">
+                            <!-- <i id="myBtn" class="fas fa-play-circle"></i> -->
+                        </div>
+                        <div class ="card-description">
+                            <div class="card-description-text">
+                                <p>
+                                    showhunter allows the user to enter a specific band or artist name and returns a series of nearby concerts where the
+                                    band is playing along with suggestions of similar artists also playing in the area.
+                                </p>
+                            </div>
+                        </div>
+                        <hr class="divider">
+                        <div class ="card-skills">
+                            <div class="card-icon">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <div class="card-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="card-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                        </div>
+                    </div>
+                <div class="project-buttons">
+                    <div class="project-button">
+                        <a href="https://github.com/piersonscarborough/showhunter" target="blank" rel="noreferrer">
+                            <h5>GitHub</h5>
+                        </a>
+                    </div>
+                </div>
+<!-- showhunter card -->
+
+                </div>
+<!-- project-container -->
+            </div>
+        </div>
+<!-- project-content -->
+
+
+        <div class="skill-content">
+            <div class="skills" id="skills">
+                <h2>Skills</h2>
+                <hr class="divider" data-aos="fade-right">
+                <div class="skill-container">
+                    <div class="card-skills">
+                        <div class="skill-icon">
+                            <i class="fab fa-js-square"></i>
+                        </div>
+                        <div class="skill-icon">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div class="skill-icon">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <div class="skill-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <div class="skill-icon">
+                            <i class="devicon-illustrator-plain"></i>
+                        </div>
+                        <div class="skill-icon">
+                            <i class="devicon-photoshop-plain"></i>
+                        </div>
+                        <div class="skill-icon">
+                            <i class="devicon-bootstrap-plain"></i>
+                        </div>
+                        <div class="skill-icon">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <div class="skill-icon">
+                            <i class="devicon-express-original"></i>
+                        </div>
+                        <div class="skill-icon">
+                            <i class="devicon-postgresql-plain"></i>
+                        </div>
+                        <div class="skill-icon">
+                            <i class="fab fa-git-alt"></i>
+                        </div>
+                        <div class="skill-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-content">
+            <div class="contact" id="contact">
+                <div class="contact-container">
+                    <div class="contact-icons">
+                        <div class="contact-icon">
+                            <a href="https://github.com/piersonscarborough" target="blank" rel="noreferrer">
+                                <i class="fab fa-github-square"></i>
+                            </a>
+                        </div>
+                        <div class="contact-icon">
+                            <a href="https://www.linkedin.com/in/pierson-scarborough/" target="blank" rel="noreferrer">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="contact-icon">
+                            <a href="mailto: piersonscarborough@gmail.com">
+                                <i class="fas fa-envelope-square"></i>
+                            </a>
+                        </div>
+                        <div class="contact-icon">
+                            <a href="resume.pdf" target="blank" rel="noreferrer" download>
+                                <i class="far fa-file-pdf"></i>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
         <script type="text/javascript" src="script.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 
 </html>

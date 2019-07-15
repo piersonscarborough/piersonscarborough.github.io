@@ -94,3 +94,8 @@ window.onclick = function (event) {
         modal.style.display = "none";
     }
 }
+
+
+AOS.init({
+    duration: 1200,
+})
