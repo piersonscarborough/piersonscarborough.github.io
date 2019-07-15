@@ -43,11 +43,11 @@ section {
 }
 
 .type-container p{
-    font-size: 4.5rem;
+    font-size: 1.5rem;
 }
 
 h2 {
-    font-size: 6rem;
+    font-size: 3rem;
     font-family: 'Oswald', sans-serif;
     display: flex;
     flex-direction: column;
@@ -59,7 +59,7 @@ h2 {
 .divider{
     background-color: black;
     width: 30%;
-    height: 1rem;
+    height: .5rem;
     outline: none;
     margin-bottom: 5rem;
 }
@@ -85,7 +85,7 @@ hr {
 }
 
 h4{
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 1rem;
     color: black;
     font-family: 'Oswald', sans-serif;
@@ -102,11 +102,11 @@ p {
 } */
 
 .content{
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-top: 5rem;
-    margin-bottom: 10rem;
-    margin-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .about-icons{
@@ -114,34 +114,35 @@ p {
     border-color: black; */
     display: flex;
     flex-wrap: wrap;
+    margin-left: .5rem;
 }
 .about-icon{
-    font-size: 7rem;
-    margin: 1rem;
+    font-size: 3rem;
+    padding: .5rem;
 }
 .about-icon:hover{
     transition: all 0.5s ease;
-    font-size: 8rem;
+    font-size: 4rem;
 }
 .about-icon i{
     color: #545454;
 }
 
 .image-box{
-    padding-left: 3rem;
-    margin-bottom: 7rem;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
 }
 
 .about-image img{
-    width: 20rem;
+    width: 100%;
 }
 
 .project-content{
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
-    margin-bottom: 5rem;
-    margin-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
     background-color: #EDEDED;
 }
 
@@ -158,19 +159,21 @@ p {
 
 .card{
     background-color: #fff;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 0px 0px 22px 3px rgba(0,0,0,0.41);;
 }
 
 .card-title{
     background-color: #E12D1D;
-    padding: 1rem;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    padding: .2rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .card-title h4{
     color: #fff;
+    font-size: 1.5rem;
+    margin:1rem;
 }
 
 
@@ -181,7 +184,7 @@ p {
 }
 
 .card-image img{
-    width: 25rem;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -189,14 +192,14 @@ p {
     color: black;
     opacity: .8;
     z-index: 10020;
-    font-size: 10rem;
+    font-size: 5rem;
     position: absolute;
-    margin-top: 4rem;
+    margin-top: 4.5rem;
 }
 
 .card-image i:hover{
     transition: all 0.5s ease;
-    font-size: 1rem;
+    font-size: 6rem;
     color: #E12D1D;
 }
 
@@ -204,10 +207,8 @@ p {
     margin-top: 0;
 }
 .card-description p{
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 
 .card hr{
@@ -221,7 +222,7 @@ p {
     border-style: none;
     background-color: #DBDBDB;
     width: 75%;
-    height: .3rem;
+    height: .1rem;
     outline: none;
     margin-bottom: 1rem;
 }
@@ -239,7 +240,7 @@ p {
 
 .card-icon i{
     color: #545454;
-    font-size: .5rem;
+    font-size: 2.5rem;
 }
 
 .card-icon i:hover{
@@ -256,23 +257,22 @@ p {
 
 .project-button{
     background-color: #E12D1D;
-    border-radius: 20px;
-    padding: 2rem;
-    width: 1rem;
+    border-radius: 5px;
+    padding: 1rem;
     text-align: center;
     margin-bottom: 1rem;
 }
 
 .project-button h5{
-    font-size: .5rem;
+    font-size: 1.5rem;
 }
 
 .skill-content{
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
     margin-bottom: 5rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .skill-container{
@@ -282,7 +282,7 @@ p {
     margin: 0px;
     padding: 1rem;
     background-color: #2B4764 ;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .skill-icon {
@@ -292,7 +292,7 @@ p {
 
 .skill-icon i{
     color: #fff;
-    font-size: 1rem;
+    font-size: 5rem;
 }
 
 .skill-icon i:hover{
@@ -321,13 +321,13 @@ p {
 }
 
 .contact-icon {
-    padding: 1.5rem;
+    padding: .8rem;
     margin-bottom: 0rem;
 }
 
 .contact-icon i{
     color: #545454;
-    font-size: 7rem;
+    font-size: 4rem;
 }
 
 .contact-icon i:hover{
@@ -341,19 +341,129 @@ p {
 } */
 
 
-@media only screen and (min-width: 768px) {
+
+
+@media only screen and (min-width: 1001px) {
+    html{
+        font-size: 14px;
+    }
+
 
     .type-container p{
         font-size: 2.5rem;
     }
+
+    .image-box{
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+    width: 40%;
+    height: auto;
+    }
+    
+    .text-container {
+        max-width: 60%;
+    }
+
+    .about-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+    }
+
+
     .content{
     padding-left: 8rem;
     padding-right: 8rem;
     padding-top: 8rem;
     margin-bottom: 10rem;
-    margin-top: 5rem;
     }
+
+    .text-container p{
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+        padding-bottom: .5rem;
+        font-size: 1.2rem;
+    }
+
+    .divider{
+        margin-bottom: 8rem;
+        width: 12%;
+    }
+
+    .project-content{
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 8rem;
+    margin-bottom: 10rem;
+    }
+
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .card{
+        max-width: 40%;
+        margin: 1rem;
+    }
+
+    .project-buttons{
+        display: none;
+    }
+
+    .card-image i{
+        margin-top: 6rem;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 500px) {
+
+    .type-container p{
+        font-size: 2.5rem;
+
+    }
+
+
+    .image-box{
+    margin-bottom: 4rem;
+    padding-top: 2rem;
+    width: 75%;
+    height: auto;
+    }
+    
     .text-container {
-    max-width: 50%;
+        max-width: 75%;
     }
+
+    .about-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+    }
+
+
+    .content{
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 10rem;
+    margin-bottom: 10rem;
+    }
+
+    .text-container p{
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+        padding-bottom: .5rem;
+        font-size: 1.2rem;
+    }
+
+    .divider{
+        margin-bottom: 8rem;
+        width: 15%;
+    }
+    
+
 }

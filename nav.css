@@ -18,12 +18,12 @@
 }
 
 .mobile-menu {
-    font-size: 3rem;
+    font-size: 1rem;
     position: fixed;
-    right: -5rem;
-    top: 8rem;
+    right: -7rem;
+    top: 3rem;
     z-index: 1000000;
-    width: 30rem;
+    width: 15rem;
 }
 
 li{
@@ -55,7 +55,10 @@ li{
     display: flex;
     text-align: center;
     justify-self: flex-end;
-    padding: .5rem;
+    padding: .2rem;
+}
+.main-menu ul {
+        padding: .2rem;
 }
 
 .slide-left{-webkit-animation:slide-left .5s cubic-bezier(.25,.46,.45,.94) both;animation:slide-left .5s cubic-bezier(.25,.46,.45,.94) both}
@@ -69,8 +72,8 @@ li{
 
 .logo {
     display: inline-block;
-    font-size: 3rem;
-    margin-left: 2.5rem;
+    font-size: 2rem;
+    margin-left: 1rem;
 }
 
 .navbar-toggle {
@@ -78,9 +81,9 @@ li{
     right: 0;
     cursor: pointer;
     color: rgba(255, 255, 255, 0.8);
-    font-size: 4rem;
+    font-size: 2rem;
     position: absolute;
-    margin-right: 2.5rem;
+    margin-right: 1rem;
 
 }
 
