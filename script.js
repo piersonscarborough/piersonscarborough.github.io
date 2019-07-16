@@ -95,7 +95,3 @@ window.onclick = function (event) {
     }
 }
 
-
-AOS.init({
-    duration: 1200,
-})
