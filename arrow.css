@@ -46,7 +46,7 @@
     margin-left: 6.3rem;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1001px) {
 
     .right-first{
         margin-left: 9.5rem;
@@ -55,7 +55,7 @@
         margin-left: 10.5rem;
     }
     .right-third{
-        margin-left: 10.5rem;
+        margin-left: 10.4rem;
     }
     .right-fourth{
         margin-left: 12rem;
@@ -73,5 +73,26 @@
         transition: all 0.5s ease;
         font-size: 5rem;
     }
+
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 500px) {
+
+    .right-first{
+        margin-left: 9.2rem;
+    }
+    .right-second{
+        margin-left: 10rem;
+    }
+    .right-third{
+        margin-left: 10rem;
+    }
+    .right-fourth{
+        margin-left: 11.5rem;
+    }
+    .right-fifth{
+        margin-left: 10rem;
+    }
+    
 
 }

@@ -233,6 +233,12 @@ p {
     justify-content: center;
 }
 
+.skill-skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .card-icon {
     padding: .5rem;
     margin-bottom: 1rem;
@@ -335,6 +341,10 @@ p {
     transition: all 0.5s ease;
 }
 
+.title-icon{
+    display: none;
+}
+
 
 /* .navbar{
     display: none;
@@ -414,8 +424,52 @@ p {
     }
 
     .card-image i{
-        margin-top: 6rem;
+        margin-top: 5%;
+        font-size: 6rem;
     }
+
+    .project-content{
+        padding-bottom: 12rem;
+    }
+
+    .card-title{
+        display: flex;
+        justify-content: flex-end;
+        justify-content: space-between;
+    }
+
+    .title-icon {
+        display: flex;
+        margin: 1rem;
+        align-self: flex-end;
+    }
+
+    .title-icon i{
+        color: black;
+        font-size: 2.1rem;
+    }
+
+    .title-icon i:hover{
+        color: #fff;
+        transition: all 0.5s ease;
+    }
+
+    .skills .divider{
+        width: 5%;
+    }
+
+    .skill-container{
+        margin-left: 15rem;
+        margin-right: 15rem;
+        margin-bottom: 15rem;
+    }
+
+    .skill-icon i{
+        font-size: 8rem;
+        margin: 1rem;
+    }
+    
+
 
 }
 
@@ -429,13 +483,13 @@ p {
 
     .image-box{
     margin-bottom: 4rem;
-    padding-top: 2rem;
-    width: 75%;
+    width: 35rem;
     height: auto;
     }
     
     .text-container {
         max-width: 75%;
+        min-width: 28rem;
     }
 
     .about-container{
@@ -449,7 +503,7 @@ p {
     .content{
     padding-left: 8rem;
     padding-right: 8rem;
-    padding-top: 10rem;
+    padding-top: 8rem;
     margin-bottom: 10rem;
     }
 
@@ -465,5 +519,72 @@ p {
         width: 15%;
     }
     
+    .card{
+        max-width: 30rem;
+        min-width: 28rem;
+        margin-bottom: 8rem;
+    }
+
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .card-description{
+        padding: 1rem;
+    }
+
+    .card-description p{
+        font-size: 1.3rem;
+    }
+
+    .card-image i{
+        font-size: 8rem;
+    }
+
+    .project-content{
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+
+    .card-title{
+        display: flex;
+        justify-content: flex-end;
+        justify-content: space-between;
+    }
+
+    .title-icon {
+        display: flex;
+        margin: 1rem;
+        align-self: flex-end;
+    }
+
+    .title-icon i{
+        color: black;
+        font-size: 2.1rem;
+    }
+
+    .title-icon i:hover{
+        color: #fff;
+        transition: all 0.5s ease;
+    }
+
+    .project-buttons{
+        display: none;
+    }
+
+    .skill-container{
+        margin-left: 15rem;
+        margin-right: 15rem;
+        margin-bottom: 15rem;
+    }
+
+    .skill-icon i{
+        font-size: 8rem;
+        margin: 1rem;
+    }
 
 }
