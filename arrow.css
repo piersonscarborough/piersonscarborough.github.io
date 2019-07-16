@@ -4,13 +4,13 @@
     justify-content: center;
     align-self: flex-end;
     position: absolute;
-    margin-bottom: 10px;
-    font-size: 5rem;
+    margin-bottom: 5px;
+    font-size: 3rem;
 }
 
 .arrow:hover{
     transition: all 0.5s ease;
-    font-size: 7rem;
+    font-size: 5rem;
 }
 
 .bounce-in-top{-webkit-animation:bounce-in-top 1.1s both;animation:bounce-in-top 1.1s both}
@@ -27,29 +27,72 @@
 
 .right-first{
     color: black;
-    margin-left: 9.5rem;
+    margin-left: 5.5rem;
 }
 .right-second{
     color: black;
-    margin-left: 11.5rem;
+    margin-left: 6.3rem;
 }
 .right-third{
     color: black;
-    margin-left: 11.5rem;
+    margin-left: 6.3rem;
 }
 .right-fourth{
     color: black;
-    margin-left: 15.5rem;
+    margin-left: 7.5rem;
 }
 .right-fifth{
     color: black;
-    margin-left: 11.5rem;
+    margin-left: 6.3rem;
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 1001px) {
 
-    .type-container{
-        font-size: 3rem;
+    .right-first{
+        margin-left: 9.5rem;
+    }
+    .right-second{
+        margin-left: 10.5rem;
+    }
+    .right-third{
+        margin-left: 10.4rem;
+    }
+    .right-fourth{
+        margin-left: 12rem;
+    }
+    .right-fifth{
+        margin-left: 10.5rem;
     }
     
+    .arrow{
+    margin-bottom: 7px;
+    font-size: 3rem;
+}
+
+    .arrow:hover{
+        transition: all 0.5s ease;
+        font-size: 5rem;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 500px) {
+
+    .right-first{
+        margin-left: 9.2rem;
+    }
+    .right-second{
+        margin-left: 10rem;
+    }
+    .right-third{
+        margin-left: 10rem;
+    }
+    .right-fourth{
+        margin-left: 11.5rem;
+    }
+    .right-fifth{
+        margin-left: 10rem;
+    }
+    
+
 }

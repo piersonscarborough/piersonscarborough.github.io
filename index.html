@@ -2,6 +2,7 @@
 <html>
 
     <head>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
         <title>Pierson Scarborough</title>
         <link rel="shortcut icon" type="image/png" href="favicon.png" />
         <link rel="stylesheet" href="index.css">
@@ -75,47 +76,47 @@
             <div class="about-me" id="about">
                 <h2>ABOUT ME</h2>
                 <hr class="divider" data-aos="fade-right">
-                <div class="image-box">
-                    <div class="about-image">
-                        <img src="lumberjack.png" alt="">
+                <div class="about-container">
+                    <div class="image-box">
+                        <div class="about-image">
+                            <img src="lumberjack.png" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="text-container">
-                <h4>Hi! I'm Pierson Scarborough</h4>
-                    <p>
-                        I'm a designer, a developer, and a creator. Before becoming a web developer, I was in advertising, focused primarily on
-                        content creation and design. If you had asked me two years ago if I thought I would be coding and building applications
-                        today, I would’ve thought you were crazy. Computer Science always on the surface appeared to be reserved for those who
-                        excelled in mathematics and/or science, not necessarily creatives. As I saw the market gradually shifting towards the
-                        web and more and more companies were looking for designers with the ability to code, I decided to dive into this
-                        challenging discipline headfirst and haven’t looked back.
-                    </p>
-                    <p>    
-                        The world of development is just another outlet for me to build and create. I believe there is great value in not only
-                        being able to understand design, but also being able to create and implement it through code. Just like designing a logo
-                        or developing pictures, I find the coding process to be therapeutic. The many intricate steps it takes to build
-                        something makes the end product that much more gratifying.
-                    </p> 
-                    <p>
-                        When I’m not writing code, you can find me shooting photography, creating art, thrifting, and just being active
-                        outdoors. I also offer freelance design and photography on the side. Contact me and let’s build something!
-                    </p>
-                </div>
-                <div class="about-icons">
-                    <div class="about-icon">
-                        <a href="https://github.com/piersonscarborough" target="blank" rel="noreferrer">
-                            <i class="fab fa-github-square"></i>
-                        </a>
-                    </div>
-                    <div class="about-icon">
-                        <a href="https://www.linkedin.com/in/pierson-scarborough/" target="blank" rel="noreferrer">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                    </div>
-                    <div class="about-icon">
-                        <a href="mailto: piersonscarborough@gmail.com">
-                            <i class="fas fa-envelope-square"></i>
-                        </a>
+                    <div class="text-container">
+                    <h4>Hi! I'm Pierson Scarborough</h4>
+                        <p>
+                            I'm a designer, a developer, and a creator. If you had asked me two years ago if I thought I would be coding and building applications
+                            today, I would’ve thought you were crazy. Computer Science always on the surface appeared to be reserved for those who
+                            excelled in mathematics and/or science, not necessarily creatives. As I saw the market gradually shifting towards the
+                            web and more and more companies were looking for designers with the ability to code, I decided to dive into this
+                            challenging discipline headfirst and haven’t looked back.
+                        </p>
+                        <p>    
+                            The world of development is just another outlet for me to build and create. I believe there is great value in not only
+                            being able to understand design, but also being able to create and implement it through code.
+                        </p> 
+                        <p>
+                            When I’m not writing code, you can find me shooting photography, creating art, thrifting, and just being active
+                            outdoors. I also offer freelance design and photography on the side. Contact me and let’s build something!
+                        </p>
+
+                        <div class="about-icons">
+                            <div class="about-icon">
+                                <a href="https://github.com/piersonscarborough" target="blank" rel="noreferrer">
+                                    <i class="fab fa-github-square"></i>
+                                </a>
+                            </div>
+                            <div class="about-icon">
+                                <a href="https://www.linkedin.com/in/pierson-scarborough/" target="blank" rel="noreferrer">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                            <div class="about-icon">
+                                <a href="mailto: piersonscarborough@gmail.com">
+                                    <i class="fas fa-envelope-square"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -135,6 +136,11 @@
                     <div class="card">
                         <div class ="card-title">
                             <h4>BRAINZ</h4>
+                            <div class="title-icon">
+                                <a href="https://github.com/piersonscarborough/brainz" target="blank" rel="noreferrer">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
                         </div>
                         <div class ="card-image">
                             <img src="brainz-background.jpg" alt="">
@@ -182,10 +188,18 @@
                         <!-- Modal content -->
                         <div class="modal-content scale-in-center">
                             <span class="close">&times;</span>
-                            <video controls>
-                                <source src="brainz-mobile.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
+                                <div class="mobile">
+                                    <video  controls>
+                                        <source src="brainz-mobile.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                <div class="full">
+                                    <video  controls>
+                                        <source src="brainz.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
                         </div>
                     </div>
 <!-- brainz card -->
@@ -194,7 +208,12 @@
 <!-- showhunter card -->
                     <div class="card">
                         <div class ="card-title">
-                            <h4>showhunter</h4>
+                            <h4>SHOWHUNTER</h4>
+                            <div class ="title-icon">
+                                <a href="https://github.com/piersonscarborough/showhunter" target="blank" rel="noreferrer">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
                         </div>
                         <div class ="card-image">
                             <img src="showhunter-background.jpg" alt="">
@@ -203,7 +222,7 @@
                         <div class ="card-description">
                             <div class="card-description-text">
                                 <p>
-                                    showhunter allows the user to enter a specific band or artist name and returns a series of nearby concerts where the
+                                    SHOWHUNTER allows the user to enter a specific band or artist name and returns a series of nearby concerts where the
                                     band is playing along with suggestions of similar artists also playing in the area.
                                 </p>
                             </div>
@@ -242,7 +261,7 @@
                 <h2>Skills</h2>
                 <hr class="divider" data-aos="fade-right">
                 <div class="skill-container">
-                    <div class="card-skills">
+                    <div class="skill-skills">
                         <div class="skill-icon">
                             <i class="fab fa-js-square"></i>
                         </div>
@@ -274,12 +293,8 @@
                             <i class="devicon-postgresql-plain"></i>
                         </div>
                         <div class="skill-icon">
-                            <i class="fab fa-git-alt"></i>
-                        </div>
-                        <div class="skill-icon">
                             <i class="fab fa-python"></i>
                         </div>
-                    </div>
                     </div>
                 </div>
             </div>

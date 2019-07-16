@@ -1,7 +1,7 @@
 
 
 html {
-    font-size: 16px;
+    font-size: 12px;
     scroll-behavior: smooth;
     
 }
@@ -43,11 +43,11 @@ section {
 }
 
 .type-container p{
-    font-size: 4.5rem;
+    font-size: 1.5rem;
 }
 
 h2 {
-    font-size: 6rem;
+    font-size: 3rem;
     font-family: 'Oswald', sans-serif;
     display: flex;
     flex-direction: column;
@@ -59,7 +59,7 @@ h2 {
 .divider{
     background-color: black;
     width: 30%;
-    height: 1rem;
+    height: .5rem;
     outline: none;
     margin-bottom: 5rem;
 }
@@ -85,7 +85,7 @@ hr {
 }
 
 h4{
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 1rem;
     color: black;
     font-family: 'Oswald', sans-serif;
@@ -102,42 +102,47 @@ p {
 } */
 
 .content{
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-top: 5rem;
-    margin-bottom: 10rem;
-    margin-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .about-icons{
-    border-style: solid;
-    border-color: black;
+    /* border-style: solid;
+    border-color: black; */
     display: flex;
     flex-wrap: wrap;
+    margin-left: .5rem;
 }
 .about-icon{
-    font-size: 7rem;
-    margin: 1rem;
+    font-size: 3rem;
+    padding: .5rem;
 }
 .about-icon:hover{
     transition: all 0.5s ease;
-    font-size: 8rem;
+    font-size: 4rem;
 }
 .about-icon i{
     color: #545454;
 }
 
 .image-box{
-    padding-left: 3rem;
-    margin-bottom: 7rem;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.about-image img{
+    width: 100%;
 }
 
 .project-content{
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-top: 5rem;
-    margin-bottom: 10rem;
-    margin-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
     background-color: #EDEDED;
 }
 
@@ -154,19 +159,21 @@ p {
 
 .card{
     background-color: #fff;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 0px 0px 22px 3px rgba(0,0,0,0.41);;
 }
 
 .card-title{
     background-color: #E12D1D;
-    padding: 1rem;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    padding: .2rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .card-title h4{
     color: #fff;
+    font-size: 1.5rem;
+    margin:1rem;
 }
 
 
@@ -177,7 +184,7 @@ p {
 }
 
 .card-image img{
-    width: 50rem;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -185,14 +192,14 @@ p {
     color: black;
     opacity: .8;
     z-index: 10020;
-    font-size: 10rem;
+    font-size: 5rem;
     position: absolute;
-    margin-top: 8rem;
+    margin-top: 4.5rem;
 }
 
 .card-image i:hover{
     transition: all 0.5s ease;
-    font-size: 12rem;
+    font-size: 6rem;
     color: #E12D1D;
 }
 
@@ -200,10 +207,8 @@ p {
     margin-top: 0;
 }
 .card-description p{
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    padding-bottom: 2.5rem;
-    padding-top: 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 
 .card hr{
@@ -217,7 +222,7 @@ p {
     border-style: none;
     background-color: #DBDBDB;
     width: 75%;
-    height: .3rem;
+    height: .1rem;
     outline: none;
     margin-bottom: 1rem;
 }
@@ -228,14 +233,20 @@ p {
     justify-content: center;
 }
 
+.skill-skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .card-icon {
-    padding: 1.5rem;
+    padding: .5rem;
     margin-bottom: 1rem;
 }
 
 .card-icon i{
     color: #545454;
-    font-size: 5rem;
+    font-size: 2.5rem;
 }
 
 .card-icon i:hover{
@@ -252,23 +263,22 @@ p {
 
 .project-button{
     background-color: #E12D1D;
-    border-radius: 20px;
-    padding: 2rem;
-    width: 15rem;
+    border-radius: 5px;
+    padding: 1rem;
     text-align: center;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
 }
 
 .project-button h5{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 
 .skill-content{
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-top: 5rem;
-    margin-bottom: 20rem;
-    margin-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
 }
 
 .skill-container{
@@ -278,17 +288,17 @@ p {
     margin: 0px;
     padding: 1rem;
     background-color: #2B4764 ;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .skill-icon {
-    padding: 2rem;
+    padding: 1rem;
     margin-bottom: 1rem;
 }
 
 .skill-icon i{
     color: #fff;
-    font-size: 15rem;
+    font-size: 5rem;
 }
 
 .skill-icon i:hover{
@@ -317,18 +327,22 @@ p {
 }
 
 .contact-icon {
-    padding: 1.5rem;
+    padding: .8rem;
     margin-bottom: 0rem;
 }
 
 .contact-icon i{
     color: #545454;
-    font-size: 7rem;
+    font-size: 4rem;
 }
 
 .contact-icon i:hover{
     color: #E12D1D;
     transition: all 0.5s ease;
+}
+
+.title-icon{
+    display: none;
 }
 
 
@@ -337,10 +351,240 @@ p {
 } */
 
 
-@media screen and (min-width: 768px) {
 
-    .type-container{
-        font-size: 3rem;
+
+@media only screen and (min-width: 1001px) {
+    html{
+        font-size: 14px;
+    }
+
+
+    .type-container p{
+        font-size: 2.5rem;
+    }
+
+    .image-box{
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+    width: 40%;
+    height: auto;
     }
     
+    .text-container {
+        max-width: 60%;
+    }
+
+    .about-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+    }
+
+
+    .content{
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 8rem;
+    margin-bottom: 10rem;
+    }
+
+    .text-container p{
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+        padding-bottom: .5rem;
+        font-size: 1.2rem;
+    }
+
+    .divider{
+        margin-bottom: 8rem;
+        width: 12%;
+    }
+
+    .project-content{
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 8rem;
+    margin-bottom: 10rem;
+    }
+
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .card{
+        max-width: 40%;
+        margin: 1rem;
+    }
+
+    .project-buttons{
+        display: none;
+    }
+
+    .card-image i{
+        margin-top: 5%;
+        font-size: 6rem;
+    }
+
+    .project-content{
+        padding-bottom: 12rem;
+    }
+
+    .card-title{
+        display: flex;
+        justify-content: flex-end;
+        justify-content: space-between;
+    }
+
+    .title-icon {
+        display: flex;
+        margin: 1rem;
+        align-self: flex-end;
+    }
+
+    .title-icon i{
+        color: black;
+        font-size: 2.1rem;
+    }
+
+    .title-icon i:hover{
+        color: #fff;
+        transition: all 0.5s ease;
+    }
+
+    .skills .divider{
+        width: 5%;
+    }
+
+    .skill-container{
+        margin-left: 15rem;
+        margin-right: 15rem;
+        margin-bottom: 15rem;
+    }
+
+    .skill-icon i{
+        font-size: 8rem;
+        margin: 1rem;
+    }
+    
+
+
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 500px) {
+
+    .type-container p{
+        font-size: 2.5rem;
+
+    }
+
+
+    .image-box{
+    margin-bottom: 4rem;
+    width: 35rem;
+    height: auto;
+    }
+    
+    .text-container {
+        max-width: 75%;
+        min-width: 28rem;
+    }
+
+    .about-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+    }
+
+
+    .content{
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 8rem;
+    margin-bottom: 10rem;
+    }
+
+    .text-container p{
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+        padding-bottom: .5rem;
+        font-size: 1.2rem;
+    }
+
+    .divider{
+        margin-bottom: 8rem;
+        width: 15%;
+    }
+    
+    .card{
+        max-width: 30rem;
+        min-width: 28rem;
+        margin-bottom: 8rem;
+    }
+
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .card-description{
+        padding: 1rem;
+    }
+
+    .card-description p{
+        font-size: 1.3rem;
+    }
+
+    .card-image i{
+        font-size: 8rem;
+    }
+
+    .project-content{
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+
+    .card-title{
+        display: flex;
+        justify-content: flex-end;
+        justify-content: space-between;
+    }
+
+    .title-icon {
+        display: flex;
+        margin: 1rem;
+        align-self: flex-end;
+    }
+
+    .title-icon i{
+        color: black;
+        font-size: 2.1rem;
+    }
+
+    .title-icon i:hover{
+        color: #fff;
+        transition: all 0.5s ease;
+    }
+
+    .project-buttons{
+        display: none;
+    }
+
+    .skill-container{
+        margin-left: 15rem;
+        margin-right: 15rem;
+        margin-bottom: 15rem;
+    }
+
+    .skill-icon i{
+        font-size: 8rem;
+        margin: 1rem;
+    }
+
 }
