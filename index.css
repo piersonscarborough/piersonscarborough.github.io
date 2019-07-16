@@ -18,7 +18,14 @@ body {
     text-decoration: none;
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+}
+
+h5{
+    margin:0;
+}
+
+h2{
+    margin-bottom: .5rem;
 }
 
 section {
@@ -69,8 +76,7 @@ hr {
     unicode-bidi: isolate;
     margin-block-start: 0.5em;
     margin-block-end: 0.5em;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
+    
     overflow: hidden;
     border-style: none;
 }
@@ -217,7 +223,6 @@ p {
     unicode-bidi: isolate;
     margin-block-start: 0.5em;
     margin-block-end: 0.5em;
-    margin-inline-start: auto;
     margin-inline-end: auto;
     overflow: hidden;
     border-style: none;
@@ -226,6 +231,16 @@ p {
     height: .1rem;
     outline: none;
     margin-bottom: 1rem;
+}
+
+.projects .projects-divider {
+    width: 25%;
+
+}
+
+.skills .divider{
+    width: 15%;
+
 }
 
 .card-skills{

@@ -36,6 +36,7 @@ li{
     /* box-shadow: 0rem .5rem .5rem black; */
     background-color: black;
     padding: 10px;
+    margin: 0;
 }
 
 .nav-links{
