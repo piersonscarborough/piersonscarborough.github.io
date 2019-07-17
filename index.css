@@ -91,8 +91,12 @@ hr {
     color: black; */
 }
 
+.text-container p{
+    font-size: 1.3rem;
+}
+
 h4{
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 1rem;
     color: black;
     font-family: 'Oswald', sans-serif;
@@ -112,7 +116,7 @@ p {
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 8rem;
     margin-top: 2rem;
 }
 
@@ -122,14 +126,15 @@ p {
     display: flex;
     flex-wrap: wrap;
     margin-left: .5rem;
+    margin-top: .5rem;
 }
 .about-icon{
-    font-size: 3rem;
+    font-size: 4rem;
     padding: .5rem;
 }
 .about-icon:hover{
     transition: all 0.5s ease;
-    font-size: 4rem;
+    color: #E12D1D;
 }
 .about-icon i{
     color: #545454;
@@ -197,7 +202,7 @@ p {
 }
 
 .card-image i{
-    color: black;
+    color: #fff;
     opacity: .8;
     z-index: 10020;
     font-size: 5rem;
@@ -215,8 +220,9 @@ p {
     margin-top: 0;
 }
 .card-description p{
-    padding-left: .5rem;
-    padding-right: .5rem;
+    padding-left: .8rem;
+    padding-right: .8rem;
+    font-size: 1.2rem;
 }
 
 .card hr{
@@ -272,7 +278,7 @@ p {
 }
 
 .project-buttons{
-    margin: 2.5rem;
+    margin-top: 2.5rem;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -283,7 +289,10 @@ p {
     border-radius: 5px;
     padding: 1rem;
     text-align: center;
-    margin-bottom: 5rem;
+    margin-bottom: 8rem;
+    margin-right: .5rem;
+    margin-left: .5rem;
+    width: 8rem;
 }
 
 .project-button h5{
@@ -369,8 +378,148 @@ p {
 
 
 
+@media only screen and (min-width: 1425px){
 
-@media only screen and (min-width: 1001px) {
+    html{
+        font-size: 14px;
+    }
+
+
+    .type-container p{
+        font-size: 2.5rem;
+    }
+
+    .image-box{
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+    width: 40%;
+    height: auto;
+    }
+    
+    .text-container {
+        max-width: 45%;
+        margin-right: 5rem;
+    }
+
+    .about-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+    }
+
+
+    .content{
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 8rem;
+    margin-bottom: 10rem;
+    }
+
+    .text-container p{
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+        padding-bottom: .5rem;
+        font-size: 1.2rem;
+    }
+
+    .divider{
+        margin-bottom: 8rem;
+        width: 12%;
+    }
+
+    .project-content{
+        padding-left: 8rem;
+        padding-right: 8rem;
+        padding-top: 8rem;
+        margin-bottom: 10rem;
+    }
+
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .card{
+        max-width: 40%;
+        margin: 1rem;
+    }
+
+    .project-buttons{
+        display: none;
+    }
+
+    .card-image i{
+        margin-top: 5%;
+        font-size: 6rem;
+    }
+
+    .project-content{
+        padding-bottom: 12rem;
+    }
+
+    .card-title{
+        display: flex;
+        justify-content: flex-end;
+        justify-content: space-between;
+    }
+
+    .title-icons{
+        display: flex;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-right: 1rem;
+    }
+
+    .title-icon {
+        display: flex;
+        align-self: flex-end;
+        margin-left: 1rem;
+    }
+
+    .title-icon i{
+        color: black;
+        font-size: 2.1rem;
+    }
+
+    .title-icon i:hover{
+        color: #fff;
+        transition: all 0.5s ease;
+    }
+
+    .skills .divider{
+        width: 5%;
+    }
+
+    .skill-container{
+        margin-left: 15rem;
+        margin-right: 15rem;
+        margin-bottom: 15rem;
+    }
+
+    .skill-icon i{
+        font-size: 8rem;
+        margin: 1rem;
+    }
+
+    .projects .projects-divider{
+        width: 10%;
+    }
+
+    .about-icon{
+        font-size: 4rem;
+        padding: .5rem;
+    }
+    .about-icon i:hover{
+        transition: all 0.5s ease;
+        font-size: 5rem;
+        color: #E12D1D;
+    }
+}
+
+
+@media only screen and (max-width: 1424px) and (min-width: 1091px) {
     html{
         font-size: 14px;
     }
@@ -418,10 +567,10 @@ p {
     }
 
     .project-content{
-    padding-left: 8rem;
-    padding-right: 8rem;
-    padding-top: 8rem;
-    margin-bottom: 10rem;
+        padding-left: 8rem;
+        padding-right: 8rem;
+        padding-top: 8rem;
+        margin-bottom: 10rem;
     }
 
     .project-container{
@@ -455,10 +604,17 @@ p {
         justify-content: space-between;
     }
 
+    .title-icons{
+        display: flex;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-right: 1rem;
+    }
+
     .title-icon {
         display: flex;
-        margin: 1rem;
         align-self: flex-end;
+        margin-left: 1rem;
     }
 
     .title-icon i{
@@ -489,12 +645,22 @@ p {
     .projects .projects-divider{
         width: 10%;
     }
+
+    .about-icon{
+        font-size: 4rem;
+        padding: .5rem;
+    }
+    .about-icon i:hover{
+        transition: all 0.5s ease;
+        font-size: 5rem;
+        color: #E12D1D;
+    }
     
 
 
 }
 
-@media only screen and (max-width: 1000px) and (min-width: 500px) {
+@media only screen and (max-width: 1090px) and (min-width: 500px) {
 
     .type-container p{
         font-size: 2.5rem;
@@ -536,8 +702,8 @@ p {
     .text-container p{
         margin-bottom: 0rem;
         margin-top: 0rem;
-        padding-bottom: .5rem;
-        font-size: 1.2rem;
+        padding-bottom: 1rem;
+        font-size: 1.5rem;
     }
 
     .divider{
@@ -571,6 +737,10 @@ p {
         font-size: 8rem;
     }
 
+    .card-image i:hover{
+        font-size: 8rem;
+    }
+
     .project-content{
         padding-top: 8rem;
         padding-bottom: 8rem;
@@ -582,10 +752,23 @@ p {
         justify-content: space-between;
     }
 
+
+    .title-icons{
+        display: flex;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-right: 1rem;
+    }
+
     .title-icon {
         display: flex;
-        margin: 1rem;
         align-self: flex-end;
+        margin-left: 1rem;
+    }
+
+    .title-icon i{
+        color: black;
+        font-size: 2.1rem;
     }
 
     .title-icon i{
@@ -611,6 +794,14 @@ p {
     .skill-icon i{
         font-size: 8rem;
         margin: 1rem;
+    }
+
+
+
+    .about-icon i:hover{
+        transition: all 0.5s ease;
+        font-size: 5rem;
+        color: #E12D1D;
     }
 
 }
