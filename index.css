@@ -204,7 +204,7 @@ p {
 .card-image i{
     color: #fff;
     opacity: .8;
-    z-index: 10020;
+    z-index: 99;
     font-size: 5rem;
     position: absolute;
     margin-top: 4.5rem;
@@ -332,12 +332,12 @@ p {
     transition: all 0.5s ease;
 }
 
-.contact-content{
+.footer-content{
     padding: 2rem;
     background-color: black;
 }
 
-.contact-container{
+.footer-container{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -346,23 +346,23 @@ p {
 }
 
 
-.contact-icons{
+.footer-icons{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.contact-icon {
+.footer-icon {
     padding: .8rem;
     margin-bottom: 0rem;
 }
 
-.contact-icon i{
+.footer-icon i{
     color: #545454;
     font-size: 4rem;
 }
 
-.contact-icon i:hover{
+.footer-icon i:hover{
     color: #E12D1D;
     transition: all 0.5s ease;
 }
@@ -375,6 +375,8 @@ p {
 /* .navbar{
     display: none;
 } */
+
+
 
 
 

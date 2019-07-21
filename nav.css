@@ -10,7 +10,7 @@
     width: 100%;
     /* box-shadow: 0rem .5rem 1rem black; */
     height: 4rem;
-    z-index: 1;
+    z-index: 100;
 }
 
 .main-nav{
