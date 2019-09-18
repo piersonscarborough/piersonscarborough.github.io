@@ -456,7 +456,7 @@
                     <div class="contact-container">
                         <div class="contact-form-container">
                             <h3>Get In Touch</h3>
-                            <form class ="contact-form" action="contact-form.php" method="post">
+                            <form name="contact" class ="contact-form" action="POST" data-netlify="true">
                                 <input class="name" type="text" name="name" placeholder="Full Name">
                                 <input class="mail" type="text" name="mail" placeholder="Your E-mail">
                                 <input class="subject"type="text" name="subject" placeholder="Subject">
@@ -468,9 +468,9 @@
                                     </button>
                                 </div>
                             </form>
-                            <div id="contactModal" class="modal">
+                            <!-- <div id="contactModal" class="modal">
                             
-                                <!-- Modal content -->
+                             
                                 <div class="modal-content scale-in-center">
                                     <span id="close" class="close">&times;</span>
                                     <div class="modal-text">
@@ -480,7 +480,7 @@
                                         <h4>Your message has been sent.</h4>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>

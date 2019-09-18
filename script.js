@@ -97,23 +97,23 @@ btn.onclick = function () {
 
 
 
-let submit = document.getElementById('submit')
+// let submit = document.getElementById('submit')
 
-submit.onclick = function(){
-    let modal = document.getElementById("contactModal");
-    let close = document.getElementById("close");
+// submit.onclick = function(){
+//     let modal = document.getElementById("contactModal");
+//     let close = document.getElementById("close");
 
-    modal.style.display = "block";
+//     modal.style.display = "block";
 
-    // When the user clicks on <span> (x), close the modal
-    close.onclick = function () {
-        modal.style.display = "none";
-    }
+//     // When the user clicks on <span> (x), close the modal
+//     close.onclick = function () {
+//         modal.style.display = "none";
+//     }
 
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function (event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
-}
+//     // When the user clicks anywhere outside of the modal, close it
+//     window.onclick = function (event) {
+//         if (event.target == modal) {
+//             modal.style.display = "none";
+//         }
+//     }
+// }
