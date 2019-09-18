@@ -519,6 +519,10 @@ p {
         transition: all 0.5s ease;
         color: #E12D1D;
     }
+
+    .resume hr{
+        width: 9%
+    }
 }
 
 

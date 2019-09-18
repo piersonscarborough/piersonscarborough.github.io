@@ -9,9 +9,8 @@
 .contact-background{
     background-image: url(contact-background.png);
     background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: 100%;
-    background-position-y: -2rem;
+    background-size: 110%;
+    background-position-y: 20rem;
 }
 
 
@@ -70,20 +69,23 @@
 .contact-button{
     display: flex;
     justify-content: center;
+    padding-top: 1rem;
 }
 
 .contact-button i{
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .contact-form button{
-    margin-bottom: 1.5rem;
+    display: flex;
+    align-content: center;
+    margin-bottom: 1rem;
     background-color: #E12D1D;
     border-style: hidden;
     padding-top: .5rem;
     padding-bottom: .5rem;
-    padding-right: 1.5rem;
+    padding-right: 1rem;
     padding-left: 1rem;
     border-radius: 2px;
 }
@@ -95,10 +97,10 @@
 
 @media only screen and (min-width: 1425px){
     .contact-form-container{
-            max-width: 40%;
+            max-width: 35%;
             margin: 1rem;
         }
-        .contact-container{
+    .contact-container{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -108,7 +110,29 @@
 
     .contact-background {
         background-position-y: -15rem;
+        background-size: 100%;
 
+    }
+
+    .contact-form input{
+        font-size: 1rem;
+    }
+    .contact-form textarea{
+        font-size: 1rem;
+    }
+
+    .contact-form-container h3 {
+        font-size: 2rem;
+    }
+
+    .contact-button i {
+        color: #fff;
+        font-size: 2rem;
+        padding-right: .2rem;
+    }
+
+    .contact hr {
+        width: 7%;
     }
 
 }
@@ -129,15 +153,14 @@
     }
 
     .contact-background {
-        background-image: url(contact-background.png);
-        background-repeat: no-repeat;
-        background-position: center bottom;
-        background-size: 100%;
         background-position-y: -10rem;
+        background-size: 100%;
 
     }
 
-    
+    .contact hr {
+        width: 7%;
+    }
 
 
 
@@ -160,14 +183,18 @@
 
     .contact-background{
         background-position-y: -1rem;
+        background-size: 100%;
     }
 
-
+    .contact hr {
+        width: 7%;
+    }
 
 }
 
-@media only screen and (max-width: 700px){
-     .contact-background {
-         background-position-y: 20rem;
-     }
+@media only screen and (max-width: 320px){
+
+    .contact-background {
+        background-position-y: 25rem;
+    }
 }
