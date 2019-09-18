@@ -396,12 +396,12 @@ p {
     .image-box{
     margin-bottom: 1rem;
     padding-top: 2rem;
-    width: 40%;
+    max-width: 40rem;
     height: auto;
     }
     
     .text-container {
-        max-width: 45%;
+        max-width: 45rem;
         margin-right: 5rem;
     }
 
@@ -438,6 +438,10 @@ p {
         margin-bottom: 10rem;
     }
 
+    .about-me .divider{
+        width: 10rem;
+    }
+
     .project-container{
         display: flex;
         flex-wrap: wrap;
@@ -446,8 +450,8 @@ p {
     }
 
     .card{
-        max-width: 40%;
-        margin: 1rem;
+        max-width: 30rem;
+        margin: 2rem;
     }
 
     .project-buttons{
@@ -493,7 +497,7 @@ p {
     }
 
     .skills .divider{
-        width: 5%;
+        width: 5rem;
     }
 
     .skill-container{
@@ -508,7 +512,7 @@ p {
     }
 
     .projects .projects-divider{
-        width: 10%;
+        width: 8rem;
     }
 
     .about-icon{
@@ -521,7 +525,7 @@ p {
     }
 
     .resume hr{
-        width: 9%
+        width: 8rem
     }
 }
 
@@ -588,8 +592,8 @@ p {
     }
 
     .card{
-        max-width: 40%;
-        margin: 1rem;
+        max-width: 45%;
+        margin: 2rem;
     }
 
     .project-buttons{
@@ -807,6 +811,10 @@ p {
     .about-icon i:hover{
         transition: all 0.5s ease;
         color: #E12D1D;
+    }
+
+    .skills .divider{
+        width: 5%;
     }
 
 }

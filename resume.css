@@ -114,7 +114,55 @@
     display: none;
 }
 
-@media only screen and (min-width: 1425px){
+
+@media only screen and (min-width: 1501px){
+
+    .resume-container {
+        display: none;
+    }
+
+    .resume-container-full {
+        display: block;
+    }
+
+    .resume .divider {
+        width: 7rem;
+    }
+
+    .resume-image-full img {
+        width: 27%;
+        margin-left: 37%;
+    }
+
+    .resume-image-full:hover img {
+        width: 28%;
+        transition: all 0.5s ease;
+
+    }
+
+    .arm-image-full img {
+        z-index: 10;
+        position: absolute;
+        width: 47%;
+        margin-top: 10%;
+    }
+
+    .arm-image-full-top img {
+        z-index: -1;
+        position: absolute;
+        width: 47%;
+        margin-top: 10%;
+    }
+
+    .arm-image-full-bottom img {
+        z-index: -1;
+        position: absolute;
+        width: 47%;
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (min-width: 1425px) and (max-width: 1500px) {
 
     .resume-container{
         display: none;
@@ -124,6 +172,45 @@
         display: block;
     }
 
+    .resume .divider{
+        width: 7rem;
+    }
+
+    .resume-image-full img {
+        width: 27%;
+        margin-left: 37%;
+    }
+
+    .resume-image-full:hover img {
+        width: 28%;
+        transition: all 0.5s ease;
+
+    }
+    .arm-image-full img {
+        z-index: 10;
+        position: absolute;
+        width: 47%;
+        margin-top: 10%;
+    }
+
+    .arm-image-full-top img {
+        z-index: -1;
+        position: absolute;
+        width: 47%;
+        margin-top: 10%;
+    }
+
+    .arm-image-full-bottom img {
+        z-index: -1;
+        position: absolute;
+        width: 47%;
+        margin-top: 10%;
+    }
+
+    .resume-content {
+        margin-bottom: 15rem;
+        margin-top: 5rem;
+    }
 
 }
 
@@ -138,9 +225,41 @@
         display: block;
     }
 
+    .resume .divider {
+        width: 7%;
+    }
 
+    .resume-image-full img {
+        width: 30%;
+        margin-left: 35%;
+    }
 
-    
+    .resume-image-full:hover img {
+        width: 31%;
+        transition: all 0.5s ease;
+
+    }
+
+    .arm-image-full img {
+        z-index: 10;
+        position: absolute;
+        width: 45%;
+        margin-top: 13%;
+    }
+
+    .arm-image-full-top img {
+        z-index: -1;
+        position: absolute;
+        width: 45%;
+        margin-top: 13%;
+    }
+
+    .arm-image-full-bottom img {
+        z-index: -1;
+        position: absolute;
+        width: 45%;
+        margin-top: 13%;
+    }
 
 }
 
@@ -152,6 +271,10 @@
 
     .resume-container-full{
         display: block;
+    }
+
+    .resume .divider {
+        width: 7%;
     }
 
 
