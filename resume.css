@@ -1,0 +1,158 @@
+.item {
+
+    margin-bottom: 2rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.arrow2 {
+    animation: slide2 2s ease-in-out infinite;
+    animation-delay: 1s;
+}
+
+
+
+.resume h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    color: black;
+}
+
+@keyframes slide2 {
+    0%,
+    100% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+
+    50% {
+        transform: translate(0px, 10px) rotate(0deg);
+    }
+}
+
+.item i{
+    color: black;
+    font-size: 2rem;
+}
+
+
+
+.resume-content{
+    margin-bottom: 8rem;
+}
+
+.resume-container img{
+    width: 75%;
+}
+
+.resume hr{
+    width: 8%;
+}
+
+
+.arm-image img{
+    z-index: 10;
+    position: absolute;
+    width: 45%;
+    margin-top: 15%;
+}
+.arm-image-top img{
+    z-index: -1;
+    position: absolute;
+    width: 45%;
+    margin-top: 15%;
+}
+.arm-image-bottom img{
+    z-index: -1;
+    position: absolute;
+    width: 45%;
+    margin-top: 15%;
+}
+
+.resume-image img{
+    width: 50%;
+    margin-left: 25%;
+}
+
+
+.arm-image-full img{
+    z-index: 10;
+    position: absolute;
+    width: 41.5%;
+    margin-top: 16%;
+}
+.arm-image-full-top img{
+    z-index: -1;
+    position: absolute;
+    width: 41.5%;
+    margin-top: 16%;
+}
+.arm-image-full-bottom img{
+    z-index: -1;
+    position: absolute;
+    width: 41.5%;
+    margin-top: 16%;
+}
+
+
+    
+.resume-image-full img{
+    width: 37%;
+    margin-left: 32%;
+}
+.resume-image-full:hover img{
+    width: 38%;
+    transition: all 0.5s ease;
+
+}
+
+
+.resume-container-full{
+    display: none;
+}
+
+@media only screen and (min-width: 1425px){
+
+    .resume-container{
+        display: none;
+    }
+
+    .resume-container-full{
+        display: block;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 1424px) and (min-width: 1091px) {
+
+    .resume-container{
+        display: none;
+    }
+
+    .resume-container-full{
+        display: block;
+    }
+
+
+
+    
+
+}
+
+
+@media only screen and (max-width: 1090px) and (min-width: 500px) {
+    .resume-container{
+        display: none;
+    }
+
+    .resume-container-full{
+        display: block;
+    }
+
+
+}
