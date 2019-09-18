@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="modal.css">
         <link rel="stylesheet" href="resume.css">
         <link rel="stylesheet" href="contact.css">
+     
         <link rel="stylesheet"
             href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
@@ -75,7 +76,7 @@
 
         <div class="content">
             <div class="about-me" id="about">
-                <h2>ABOUT ME</h2>
+                <h2 >ABOUT ME</h2>
                 <hr class="divider" data-aos="fade-right">
                 <div class="about-container">
                     <div class="image-box">
@@ -133,6 +134,86 @@
 <!-- project-container -->
                 <div class="project-container">
 
+<!-- brainz 2 card -->
+                    <div class="card">
+                        <div class ="card-title">
+                            <h4>BRAINZ II</h4>
+                            <div class="title-icons">
+                                <div class="title-icon">
+                                    <a href="https://quirky-bose-bab949.netlify.com/" target="blank" rel="noreferrer">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                                <div class="title-icon">
+                                    <a href="https://github.com/piersonscarborough/brainz-2-the-horde#brainz-2-the-horde" target="blank" rel="noreferrer">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="card-image">
+                            <img src="brainz-2-background.jpg" alt="">
+                            <i id="myBtn" class="fas fa-play-circle"></i>
+                        </div>
+                        <div class ="card-description">
+                            <div class="card-description-text">
+                                <p>
+                                BRAINZ II, the highly anticipated sequel to BRAINZ, is a top-down style zombie slayer. See how long you can survive the
+                                zombie apocalypse by dodging and shooting your way to the top of the live leaderboards in BRAINZ II.
+                                </p>
+                            </div>
+                        </div>
+                        <hr class="card-divider">
+                        <div class ="card-skills">
+                            <div class="card-icon">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <div class="card-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="card-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="card-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <div class="card-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                        </div>
+                    </div>
+                <div class="project-buttons">
+                    <div class="project-button">
+                        <a href="https://github.com/piersonscarborough/brainz-2-the-horde#brainz-2-the-horde" target="blank" rel="noreferrer">
+                            <h5>GitHub</h5>
+                        </a>
+                    </div>
+                    <div class="project-button">
+                        <a href="https://quirky-bose-bab949.netlify.com/" target="blank" rel="noreferrer">
+                            <h5>Site</h5>
+                        </a>
+                    </div>
+                </div>
+                    <div id="myModal" class="modal">
+                    
+                        <!-- Modal content -->
+                        <div class="modal-content scale-in-center">
+                            <span class="close">&times;</span>
+                                <div class="mobile">
+                                    <video playsinline loop autoplay muted controls>
+                                        <source src="brainz-mobile.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                <div class="full">
+                                    <video  controls autoplay muted>
+                                        <source src="brainz.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                        </div>
+                    </div>
+<!-- brainz 2 card -->
 <!-- brainz card -->
                     <div class="card">
                         <div class ="card-title">
@@ -162,7 +243,7 @@
                                 </p>
                             </div>
                         </div>
-                        <hr class="divider">
+                        <hr class="card-divider">
                         <div class ="card-skills">
                             <div class="card-icon">
                                 <i class="fab fa-js-square"></i>
@@ -242,7 +323,7 @@
                                 </p>
                             </div>
                         </div>
-                        <hr class="divider">
+                        <hr class="card-divider">
                         <div class ="card-skills">
                             <div class="card-icon">
                                 <i class="fab fa-js-square"></i>
@@ -274,7 +355,7 @@
         <div class="skill-content">
             <div class="skills" id="skills">
                 <h2>Skills</h2>
-                <hr class="divider" data-aos="fade-right">
+                <hr class="divider slide-in-left" id="skills-slide">
                 <div class="skill-container">
                     <div class="skill-skills">
                         <div class="skill-icon">
@@ -315,7 +396,6 @@
             </div>
         </div>
 
-       
 
         <div class="resume-content">
             <div class="resume" id="resume">
@@ -326,7 +406,7 @@
                         <h3>Click Me</h3>
                         <i class="far fa-hand-point-down arrow2"></i>
                     </div>
-                    <div class="resume-image-container">
+                    <div class="resume-image-container" data-aos="fade-right">
                         <div class="arm-image">
                             <img src="arm.png" alt="">
                         </div>
@@ -375,18 +455,32 @@
                     <hr class="divider" data-aos="fade-right">
                     <div class="contact-container">
                         <div class="contact-form-container">
+                            <h3>Get In Touch</h3>
                             <form class ="contact-form" action="contact-form.php" method="post">
                                 <input class="name" type="text" name="name" placeholder="Full Name">
                                 <input class="mail" type="text" name="mail" placeholder="Your E-mail">
                                 <input class="subject"type="text" name="subject" placeholder="Subject">
                                 <textarea class="message" name="message" id="" placeholder="Message"></textarea>
                                 <div class="contact-button">
-                                    <button class="button" type="submit" name="submit">
+                                    <button class="button" type="submit" name="submit" id="submit">
                                         <i class="fas fa-paper-plane"></i>
                                         Send
                                     </button>
                                 </div>
                             </form>
+                            <div id="contactModal" class="modal">
+                            
+                                <!-- Modal content -->
+                                <div class="modal-content scale-in-center">
+                                    <span id="close" class="close">&times;</span>
+                                    <div class="modal-text">
+                                        <div class="check">
+                                            <i class="far fa-check-circle"></i>
+                                        </div>
+                                        <h4>Your message has been sent.</h4>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -407,21 +501,10 @@
                                 <i class="fab fa-linkedin"></i>
                             </a>
                         </div>
-                        <div class="footer-icon">
-                            <a href="mailto:piersonscarborough@gmail.com">
-                                <i class="fas fa-envelope-square"></i>
-                            </a>
-                        </div>
-                        <div class="footer-icon">
-                            <a href="resume.pdf" target="blank" rel="noreferrer" download>
-                                <i class="far fa-file-pdf"></i>
-                            </a>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
 
         <script src="script.js"></script>
         

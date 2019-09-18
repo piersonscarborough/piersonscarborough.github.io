@@ -8,10 +8,13 @@
     text-align: center;
 }
 
+
 .arrow2 {
     animation: slide2 2s ease-in-out infinite;
     animation-delay: 1s;
 }
+
+
 
 .resume h3{
     font-family: 'Courier New', Courier, monospace;
@@ -46,7 +49,7 @@
 }
 
 .resume hr{
-    width: 20%;
+    width: 8%;
 }
 
 
